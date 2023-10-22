@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrincipiosSolid.OpenClosedPrinciple.Correcto
 {
-    partial class Coche
+    abstract class Coche
     {
         String marca;
 
@@ -14,7 +14,7 @@ namespace PrincipiosSolid.OpenClosedPrinciple.Correcto
 
         String getMarcaCoche() { return marca; }
 
-         partial int PrecioMedioCoche();
+        
     }
 
 }

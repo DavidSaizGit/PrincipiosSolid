@@ -49,7 +49,6 @@
     <Compile Include="OpenClosedPrinciple\Correcto\Coche.cs" />
     <Compile Include="OpenClosedPrinciple\Correcto\Audi.cs" />
     <Compile Include="OpenClosedPrinciple\Incorrecto\Class1.cs" />
-    <Compile Include="OpenClosedPrinciple\Incorrecto\Coche.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingleResponsability\Correcto\Coche.cs" />
@@ -58,6 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="InterfaceSegregation\Correcto\" />
+    <Folder Include="InterfaceSegregation\Incorrecto\" />
+    <Folder Include="LiskovSubstitution\Correcto\" />
+    <Folder Include="LiskovSubstitution\Incorrecto\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
